@@ -1043,4 +1043,29 @@ body {
     margin-top: 10px;
 }
 
+.safar {
+    position: relative;
+    width: 1441px;
+    height: 600px;
+    top: 1900px;
+    margin: auto;
+}
 
+.safar img {
+    border-radius: 20px;
+}
+
+.safarp {
+    position: absolute;
+    width: 409px;
+    height: 134px;
+    top: 75px;
+    left: 836px;
+    color: white;
+    font-size: 20px;
+}
+
+.contaner-five {
+    position: relative;
+    width: 1156px;h
+}
