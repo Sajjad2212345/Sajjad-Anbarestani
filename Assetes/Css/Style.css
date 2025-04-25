@@ -3,35 +3,37 @@ body {
     direction: rtl;
     padding: 0px;
     margin: 0px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.contaner-one {
-    display: grid;
-    height: 237px;
-    width: 1440px;
-}
-
-.d-one {
-    width: 1440px;
-    height: 40px;
-    background-color: #032340;
-    display:grid;
 }
 
 .d-one p {
-    color: #FFFFFF;
-    font-size: 14px;
+    position: fixed;
     width: 303px;
     height: 20px;
+    left: 568px;
     top: 10px;
-    left: 585px;
-    font-weight: 400px;
-    display: grid;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.d-one {
+    background-color: #032340;
+    width: 1440px;
+    height: 40px;
+    margin: auto;
+}
+
+.contaner-one {
+    position: relative;
+    width: 1440px;
+    height: 197px;
+    top: 40px;
+    margin: auto;
 }
 
 .d-two {
-    width: 150px;
+    position: absolute;
+    width: 150.49px;
     height: 58px;
     top: 38px;
     left: 1181px;
@@ -39,19 +41,1006 @@ body {
 }
 
 .d-two img {
-    margin-top: 38px;
     width: 150px;
-    height: 58px;
-    gap: 8px;
+    height: 32px;
 }
 
 .d-two p {
+    width: 150.49px;
+    height: 18px;
     font-size: 12px;
-    line-height: 100%;
-    width: 700px;
     color: #868686;
 }
 
-.d-three button {
-    display:;
+.d-three {
+    position: absolute;
+    width: 142px;
+    height: 48px;
+    top: 40px;
+    left: 172px;
 }
+
+.d-three button {
+    position: absolute;
+    width: 142px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.d-three div {
+    position: absolute;
+    width: 119px;
+    height: 24px;
+    top: 12px;
+    left: 12px;
+    margin-left: 8px;
+}
+
+.d-three img {
+    position: absolute;
+    width: 24;
+    height: 24px;
+}
+
+.sabad-two {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 40px;
+    left: 108px;
+    background-color: #FA541C;
+    border-radius: 12px;
+}
+
+.d-five {
+    position: absolute;
+    width: 662px;
+    height: 670px;
+    top: -8px;
+    left: 401px;
+}
+
+.d-five input {
+    position: absolute;
+    width: 638px;
+    height: 48px;
+    top: 48px;
+    left: 13px;
+    border-radius: 16px;
+    border: solid 1px;
+}
+
+.d-five img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 605px;
+    top: 58px;
+}
+
+.menu { 
+    position: absolute;
+    width: 1224px;
+    height: 64px;
+    top: 134px;
+    left: 108px;
+    border-radius: 16px;
+    background-color: #F9F9F9;
+}
+
+.menu ul {
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.al-1 a{
+    text-decoration: none;
+    color: #000306;
+}
+ 
+.al-2 a {
+    text-decoration: none;
+    color: #000306;
+    margin-right: 40px;
+}
+
+.al-3 a {
+    text-decoration: none;
+    color: #000306;
+    margin-right: 40px;
+}
+
+.al-4 a {
+    text-decoration: none;
+    color: #000306;
+    margin-right: 40px;
+}
+
+.al-5 a {
+    text-decoration: none;
+    color: #000306;
+    margin-right: 40px;
+}
+
+.al-6 a {
+    text-decoration: none;
+    color: #000306;
+}
+
+.al-6 {
+    position: absolute;
+    left: 380px;
+}
+
+.al-7 a {
+    text-decoration: none;
+    color: #000306;
+}
+
+.al-7 {
+    position: absolute;
+    left:230px;
+}
+
+.al-8 a {
+    text-decoration: none;
+    color: #000306;
+}
+
+.al-8 {
+    position: absolute;
+    left: 60px;
+}
+
+.d-six {
+    position:absolute;
+    width: 435px;
+    height: 305px;
+    top: 269px;
+    left: 930px;
+}
+
+.mahsol-1 {
+    width: 435px;
+    height: 25px;
+    color: #606060;
+}
+
+.mahsol-2 {
+    width: 435px;
+    height: 50px;
+    font-size: 32px;
+    color: #032340;
+}
+
+.mahsol-3 {
+    width: 435px;
+    height: 50px;
+    font-size: 32px;
+    color: #FA541C;
+}
+
+.mahsol-4 {
+    width: 435px;
+    height: 48px;
+    color: #606060;
+}
+
+.d-six button {
+    display: flex;
+    align-items: center;
+    width: 207px;
+    height: 48px; 
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #032340;
+    border-radius: 10px;
+    color: #FFFFFF;
+    gap: 8px;
+}
+
+.davande {
+    position: absolute;
+    width: 422px;
+    height: 475px;
+    top: 300px;
+    left: 450px;
+}
+
+.d-eight {
+    position: absolute;
+    width: 233px;
+    height: 288px;
+    top: 311px;
+    left: 145px;
+}
+
+.shop {
+    width: 227px;
+    height: 80px;
+}
+
+.shop img {
+    position: absolute;
+    border-radius: 16px;
+    width:40px;
+    height:40px;
+    background-color: #EBF5FF;
+    padding: 20px;
+    left: 180px;
+    top: 50px;
+}
+
+.shop-2 {
+    position: absolute;
+    width: 131px;
+    height: 55px;
+    left: 20px;
+    top: 20px;
+}
+
+.shop-2 p {
+    position: absolute;
+    top: 15px;
+    font-size: 24px;
+}
+
+.shop-2 span {
+    position: absolute;
+    top: 70px;
+}
+
+.like {
+    width: 227px;
+    height: 80px;
+}  
+
+.like img {
+    position: absolute;
+    border-radius: 16px;
+    width:40px;
+    height:40px;
+    background-color: #EBF5FF;
+    padding: 20px;
+    left: 180px;
+    top: 150px;
+}
+
+.like-2 {
+    position: absolute;
+    width: 131px;
+    height: 55px;
+    left: 20px;
+    top: 35px;
+}
+
+.like-2 p {
+    position: absolute;
+    top: 105px;
+    font-size: 24px;
+}
+
+.like-2 span {
+    position: absolute;
+    top: 160px;
+}
+
+.calendar {
+    width: 227px;
+    height: 80px;
+}
+
+.calendar img {
+    position: absolute;
+    border-radius: 16px;
+    width:40px;
+    height:40px;
+    background-color: #EBF5FF;
+    padding: 20px;
+    left: 180px;
+    top: 250px;
+}
+
+.calendar-2 {
+    position: absolute;
+    width: 131px;
+    height: 55px;
+    left: 20px;
+    top: 35px;
+}
+
+.calendar-2 p {
+    position: absolute;
+    top: 200px;
+    font-size: 24px;
+}
+
+.calendar-2 span {
+    position: absolute;
+    top: 260px;
+}
+
+.d-nine {
+    position:absolute;
+    width: 1439px;
+    height: 106px;
+    top: 670px;
+    left: 50px;
+    
+}
+
+.d-ten {
+    display: inline-block;
+    position: absolute;
+    width: 1140px;
+    height: 462px;
+    top: 816px;
+    left: 150px;
+}
+
+.card-1 {
+    display: inline-block;
+    width: 392px;
+    height: 462px;
+}
+
+.card-1 img {
+    display: inline-block;
+    width: 392px;
+    height: 384px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.card-1p {
+    position: absolute;
+    width: 392px;
+    height: 136px;
+    background-color: #021526;
+    top: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.card-1 p {
+    display: inline-block;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.card-2 {
+    display: inline-block;
+    width: 392px;
+    height: 384px;
+    margin-right: 15px;
+}
+
+.card-2 img {
+    display: inline-block;
+    width: 392px;
+    height: 384px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.card-2p {
+    position: absolute;
+    width: 392px;
+    height: 136px;
+    background-color: #021526;
+    top: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.card-2 p {
+    display: inline-block;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.card-3 {
+    display: inline-block;
+    width: 309px;
+    height: 221px;
+    margin-right: 10px;
+}
+
+.card-3p {
+    width: 309px;
+    height: 157px;
+}
+
+.sd {
+    font-size: 24px;
+    color: #032340;
+}
+
+.sb {
+    color: #606060;
+}
+
+.card-3 button {
+    position: relative;
+    width: 309px;
+    height: 48px;
+    text-align: center;
+    background-color: #FA541C;
+    border-radius: 10px;
+}
+
+.card-3 button p {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    color:#FFFFFF;
+}
+
+.card-3 button img {
+    position: absolute;
+    left:220px;
+    top: 10px;
+}
+
+.d-11 {
+    position:relative;
+    width: 1440px;
+    height: 600px;
+    top: 1100px;
+    left: -2px;
+    margin: auto;
+}
+
+.tanasob {
+    position: absolute;
+    display: grid;
+    width: 371px;
+    height: 200px;
+    top: 159px;
+    left: 924px;
+    padding: 24px;
+    gap: 32px;
+}
+
+.hal-khob p {
+    font-size: 24px;
+    color: #01070D;
+}
+
+.tanasob button {
+    position: relative;
+    width: 236px;
+    height: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #032340;
+    border-radius: 10px;
+}
+
+.tanasob button p {
+    position: absolute;
+    font-size: 16px;
+    color:#FFFFFF;
+    top:-5px;
+    left: 25px;
+}
+
+.tanasob button img {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.pick {
+    width: 1443px;
+    height: 600px;
+    border-radius: 32px;
+}
+
+.contaner-two {
+    position: relative;
+    width: 1440px;
+    height: 597px;
+    top: 1200px;
+    border-radius: 55px;
+    margin: auto;
+}
+
+.deatails {
+    position: absolute;
+    width: 1440px;
+    height: 572px;
+    background-color: #FFF7F4;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.main-card {
+    position:absolute;
+    width: 1144px;
+    height: 467px;
+    top: 93px;
+    left: 148px;
+    margin: auto;
+}
+
+.card-4 {
+    display: inline-block;
+    width: 366px;
+    height: 467px;
+
+}
+
+.dr {
+    display: inline-block;
+    width: 366px;
+    height:280px;
+}
+
+.ddr {
+    position: absolute;
+    top: 10px;
+    right: 315px;
+}
+
+.drp {
+    display: inline-block;
+    width: 366px;
+    height: 150px;
+    background-color: #FFFFFF;
+    margin-top: -5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.drp img {
+    position: absolute;
+    right:17px;
+}
+
+.drp p {
+    margin-right: 20px;
+}
+
+.card-5 {
+    display: inline-block;
+    width: 366px;
+    height: 467px;
+    margin-right: 10px;
+}
+
+.do {
+    display: inline-block;
+    width: 366px;
+    height:280px;
+}
+
+.doo {
+    position: absolute;
+    top: 10px;
+    left: 410px;
+}
+
+.dop {
+    display: inline-block;
+    width: 366px;
+    height: 150px;
+    background-color: #FFFFFF;
+    margin-top: -5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.dop img {
+    position: absolute;
+    right: 400px;
+}
+
+.dop p {
+    margin-right: 20px;
+}
+
+.card-6 {
+    display: inline-block;
+    width: 366px;
+    height: 467px;
+    margin-right: 10px;
+}
+
+.dt {
+    display: inline-block;
+    width: 366px;
+    height:280px;
+}
+
+.dtt {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.dtp {
+    display: inline-block;
+    width: 366px;
+    height: 150px;
+    background-color: #FFFFFF;
+    margin-top: -5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.dtp img {
+    position: absolute;
+    left: 320px;
+}
+
+.dtp p {
+    margin-right: 20px;
+}
+
+.deatails button {
+    position: absolute;
+    width: 129px;
+    height: 32px;
+    top: 50px;
+    left: 138px;
+    padding: 8px;
+    background-color: #FFF7F4;
+    border: none;
+}
+
+.deatails button p {
+    position: absolute;
+    top:-8px;
+    right: 30px;
+}
+
+.deatails button img {
+    position: absolute;
+    right: 0px;
+    top:3px;
+}
+
+.ssss {
+    position: absolute;
+    top: 318px;
+    left: 112px;
+}
+
+.ffff {
+    position: absolute;
+    top: 318px;
+    left: 1326px;
+}
+
+.ot {
+    position: absolute;
+    left: 580px;
+    top: -35px;
+    font-size: 32px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contaner-three {
+    position: relative;
+    width: 1440px;
+    height: 597px;
+    top: 1300px;
+    border-radius: 55px;
+    margin: auto;
+}
+
+.main-card2 {
+    position: absolute;
+    width: 1144px;
+    height: 467px;
+    top: 93px;
+    left: 148px;
+    margin: auto;
+}
+
+.card-7 {
+    display: inline-block;
+    margin-right: 10px;
+    border:solid 1px
+}
+
+.card-8 {
+    display: inline-block;
+    margin-right: 10px;
+    border:solid 1px
+}
+
+.card-9 {
+    display: inline-block;
+    margin-right: 10px;
+    border:solid 1px
+}
+
+.xlp p {
+    margin-right: 10px;
+}
+
+.ukp p {
+    margin-right: 10px;
+}
+
+.typ p {
+    margin-right: 10px;
+}
+
+.xl {
+    display: inline-block;
+}
+
+.uk {
+    display: inline-block;
+}
+
+.ty {
+    display: inline-block;
+}
+
+.varzeshi {
+    position: absolute;
+    font-size: 32px;
+    width: 446px;
+    text-align: center;
+    left: 497px;
+    top: -20px;
+}
+
+.baner {
+    position: relative;
+    width: 1443px;
+    height: 600px;
+    top: 1400px;
+    left: -2px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.skooter {
+    position: absolute;
+    width: 371px;
+    height: 200px;
+    top: 159px;
+    left: 924px;
+    padding: 24px;
+}
+
+.skooter button {
+    position: absolute;
+    width: 246px;
+    height: 48px;
+    background-color: #032340;
+    color: white;
+    border-radius: 10px;
+}
+
+.skooter img {
+    position: absolute;
+    top: 155px;
+    right: 50px;
+}
+
+.contaner-four {
+    position: relative;
+    width: 1440px;
+    height: 597px;
+    top: 1500px;
+    left: -2px;
+    margin: auto;
+}
+
+.deatails-2 {
+    position: absolute;
+    width: 1440px;
+    height: 572px;
+    margin: auto;
+    top: 24px;
+    background-color: #F4FAFF;
+    border-radius: 20px;
+}
+
+.main-card3 {
+    position: absolute;
+    width: 1144px;
+    height: 467px;
+    top: 93px;
+    left: 148px;
+}
+
+.card-10 {
+    display: inline-block;
+    width: 366px;
+    height: 467px;
+}
+
+.card-11 {
+    display: inline-block;
+    width: 366px;
+    height: 467px;
+    margin-right: 10px;
+}
+
+.card-12 {
+    display: inline-block;
+    width: 366px;
+    height: 467px;
+    margin-right: 10px
+}
+
+.jk{
+    background-color:white;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bk {
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.rk {
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.jk p {
+    margin-right: 10px;
+}
+
+.bk p {
+    margin-right: 10px;
+}
+
+
+.rk p {
+    margin-right: 10px;
+}
+
+
+.vizhe {
+    position: absolute;
+    font-size: 32px;
+    text-align: center;
+    width: 446px;
+    height: 60px;
+    background-color: white;
+    left: 497px;
+    top: -35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.deatails-2 button {
+    position: absolute;
+    width: 129px;
+    height: 32px;
+    top: 32px;
+    left: 148px;
+    background-color: #F4FAFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-style: none;
+}
+
+.op {
+    position: absolute;
+    top: 38px;
+    left: 260px;
+}
+
+.opp {
+    position: absolute;
+    top: 286px;
+    left: 112px;
+}
+
+.oppp {
+    position: absolute;
+    top: 286px;
+    left: 1310px;
+}
+
+.main-card4 {
+    position: relative;
+    width: 1140px;
+    height: 462px;
+    top: 1700px;
+    margin: auto;
+}
+
+.card-13 {
+    display: inline-block;
+    width: 392px;
+    height: 462px;
+    border-radius: 16px;
+}
+
+.card-14 {
+    display: inline-block;
+    width: 392px;
+    height: 462px;
+    border-radius: 16px;
+    margin-right: 10px;
+}
+
+.card-15 {
+    display: inline-block;
+    width: 309px;
+    height: 221px;
+    border-radius: 16px;
+    margin-right: 10px;
+}
+
+.lol {
+    width: 392px;
+    height: 136px;
+    padding-top: 10px;
+    margin-top: -5px;
+    background-color: #021526;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.gg {
+    width: 392px;
+    height: 136px;
+    padding-top: 10px;
+    margin-top: -5px;
+    background-color: #021526;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.lol p {
+    color: white;
+    font-size: 18px;
+}
+
+.gg p {
+    color: white;
+    font-size: 18px;
+}
+
+.card-15 button {
+    width: 309px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FA541C;
+    color: white;
+    margin-top: 10px;
+}
+
+
